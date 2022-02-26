@@ -1,9 +1,23 @@
-import useState from 'react';
+import { useState } from 'react';
 
-function Navigation() {
+function Navigation(props) {
+    const { options, setSelectedPage, selectedPage} = props;
+
     return (
-        <nav>Navigation</nav>
-    )
+        <nav>
+          <ul>
+            {options.map((selection) => (
+              <li
+                key={selection.title}
+              >
+                <span onClick={() => setSelectedPage(selection)}>
+                  {selection.title}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      );
 }
 
 export default Navigation;

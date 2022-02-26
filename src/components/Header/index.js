@@ -2,7 +2,7 @@ import useState from 'react';
 
 function Header() {
     return (
-        <header>Header</header>
+        <header>Joshua Schermann</header>
     )
 }
 
