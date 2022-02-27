@@ -1,6 +1,8 @@
 // import { useState } from "react";
 import Portfolio from '../Portfolio';
 import About from '../About';
+import Contact from '../Contact';
+import Resume from '../Resume';
 
 // Selected page is destructured from props
 function Main({ selectedPage }) {
@@ -10,14 +12,12 @@ function Main({ selectedPage }) {
         return <About />; 
       case "portfolio":
         return (
-          <>
             <Portfolio /> 
-          </>
         ); 
       case "contact":
-        return <h1>contact</h1>; 
+        return <Contact />; 
       case "resume":
-        return <h1>resume</h1>;
+        return <Resume />;
       default:
         return <h1>about</h1>;
     }
