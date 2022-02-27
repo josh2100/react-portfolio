@@ -1,7 +1,8 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 
 function Navigation(props) {
-    const { options, setSelectedPage, selectedPage} = props;
+    // const { options, setSelectedPage, selectedPage} = props;
+    const { options, setSelectedPage} = props;
 
     return (
         <nav>
