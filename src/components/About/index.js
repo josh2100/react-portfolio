@@ -1,7 +1,7 @@
 function About() {
   return (
     <>
-      <h2>About Me</h2>
+      <h2 class="col-12 d-flex justify-content-center">About Me</h2>
       <p>
         <strong>Full stack web developer</strong> with background in
         construction. I use my leadership experience, communication skills, and
