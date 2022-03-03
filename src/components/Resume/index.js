@@ -9,7 +9,7 @@ function Resume() {
       >
         Click here to download{" "}
       </a>
-      <iframe title="resume" src="https://docs.google.com/document/d/e/2PACX-1vRtzCLBOkBCq6DjxTO5U77bpxZ5Rn7Wv5sBRtq0ZpMPUm-knCTMSPlo2UsPU_pFE4R9NhAtn_u0zJsT/pub?embedded=true" width="90%" height="2000 px"></iframe>
+      <iframe title="resume" src="https://docs.google.com/document/d/e/2PACX-1vRtzCLBOkBCq6DjxTO5U77bpxZ5Rn7Wv5sBRtq0ZpMPUm-knCTMSPlo2UsPU_pFE4R9NhAtn_u0zJsT/pub?embedded=true" width="100%" height="2000 px"></iframe>
     </>
   );
 }

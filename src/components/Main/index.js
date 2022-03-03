@@ -22,7 +22,7 @@ function Main({ selectedPage }) {
         return <h1>about</h1>;
     }
   };
-
+// add a row here?
   return <div>{display()}</div>;
 }
 
