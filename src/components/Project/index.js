@@ -1,6 +1,3 @@
-// import useState from "react";
-import image from "../../assets/weatherwatch.png";
-
 function Project({ project }) {
   const { title, body, deployed, repo } = project;
 
@@ -10,10 +7,10 @@ function Project({ project }) {
   return (
     <article className="col-4">
       <h2 className="d-flex justify-content-center">{title}</h2>
-      <img src={image} alt={title} key={title} className="col-12"></img>
+      <img src={require(`../../assets/${imgSrc}.png`)} alt={title} key={title} className="col-12"></img>
       <p>{body}</p>
-      <p>Deployed: {deployed}</p>
-      <p>GitHub: {repo}</p>
+      <a href={deployed} target="_blank" rel="noreferrer"><button>App</button></a>
+      <a href={repo} target="_blank" rel="noreferrer"><button>GitHub</button></a>
     </article>
   );
 }

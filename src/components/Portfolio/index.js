@@ -24,7 +24,7 @@ function Portfolio() {
     {
       title: "Quiz Wiz",
       body: "Quiz Wiz is JavaScript quiz web application. It features a timed JavaScript quiz with a high score chart saved to local storage. See if you can answer all the questions correctly in 5 minutes! Incorrect answers will subtract time left and impact your score. I built this using HTML, JavaScript, Bootstrap and jQuery.",
-      deployed: "ttps://josh2100.github.io/quiz-wiz/",
+      deployed: "https://josh2100.github.io/quiz-wiz/",
       repo: "https://github.com/josh2100/quiz-wiz",
     },
     {
@@ -35,7 +35,7 @@ function Portfolio() {
     },
     {
       title: "Movie Me",
-      body: "MOVIE ME! is a web application that uses Wikipedia API and OMDB API to get movie recommendations. Click a genre button, and you will see a movie displayed along with year released, movie rating, and a plot for the movie.",
+      body: "Movie Me is a web application that uses Wikipedia API and OMDB API to get movie recommendations. Click a genre button, and you will see a movie displayed along with year released, movie rating, and a plot for the movie.",
       deployed: "https://josh2100.github.io/movie-me/",
       repo: "https://github.com/josh2100/movie-me",
     },
