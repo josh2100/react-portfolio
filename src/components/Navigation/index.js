@@ -4,10 +4,10 @@ function Navigation(props) {
   const { options, setSelectedPage } = props;
 
   return (
-    <nav class="row">
+    <nav className="row">
         {options.map((selection) => (
           <span
-            class="col-3"
+            className="col-3"
             key={selection.title}
             onClick={() => setSelectedPage(selection)}
           >

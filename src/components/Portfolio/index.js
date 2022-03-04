@@ -11,13 +11,13 @@ function Portfolio() {
     },
     {
       title: "Quick Budget",
-      body: "A simple budget tracker progressive web application. Enter transactions online, offline, or install the app to your computer or device.",
+      body: "A budget tracker progressive web application. Enter transactions online, offline, or install the app to your computer or device.",
       deployed: "https://quick-budget2100.herokuapp.com/",
       repo: "https://github.com/josh2100/quick-budget",
     },
     {
       title: "Express Notes",
-      body: "This is an Express.js project used to write and save notes to a server on Heroku. The front end displays a homepage and notes page with HTML. The back end utilizes Express.js and Node to write notes to a JSON file on the server.",
+      body: "This is an Express.js project is used to write and save notes to a server on Heroku. The front end displays a homepage and notes page with HTML. The back end utilizes Express.js and Node to write notes to a JSON file on the server.",
       deployed: "https://josh2100expressnotes.herokuapp.com/",
       repo: "https://github.com/josh2100/express-notes",
     },
@@ -42,7 +42,7 @@ function Portfolio() {
   ]);
 
   return (
-    <section>
+    <section className="row">
       {projects.map((project, id) => (
         <Project project={project} key={id} />
       ))}

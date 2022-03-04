@@ -23,7 +23,7 @@ function Main({ selectedPage }) {
     }
   };
 // add a row here?
-  return <div>{display()}</div>;
+  return <div  className="container-fluid">{display()}</div>;
 }
 
 export default Main;
