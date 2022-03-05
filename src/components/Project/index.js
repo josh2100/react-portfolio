@@ -5,12 +5,24 @@ function Project({ project }) {
   console.log(imgSrc);
 
   return (
-    <article className="col-4">
-      <h2 className="d-flex justify-content-center">{title}</h2>
-      <img src={require(`../../assets/${imgSrc}.png`)} alt={title} key={title} className="col-12"></img>
-      <p>{body}</p>
-      <a href={deployed} target="_blank" rel="noreferrer"><button>App</button></a>
-      <a href={repo} target="_blank" rel="noreferrer"><button>GitHub</button></a>
+    //col-11 col-sm-4 col-md-5 col-lg col-xl
+    <article className="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 card">
+      <h2 className="card-header d-flex justify-content-center">{title}</h2>
+      <img
+        src={require(`../../assets/${imgSrc}.png`)}
+        alt={title}
+        key={title}
+        className="card-img-top"
+      ></img>
+      <p>
+        {body}<br />
+        <a href={deployed} target="_blank" rel="noreferrer">
+          <button>App</button>
+        </a>
+        <a href={repo} target="_blank" rel="noreferrer">
+          <button>GitHub</button>
+        </a>
+      </p>
     </article>
   );
 }
