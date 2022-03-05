@@ -1,7 +1,7 @@
 function Project({ project }) {
   const { title, body, deployed, repo } = project;
 
-  const imgSrc = title.toLowerCase().replace(/\s/g, ""); ///// to lowercase and remove spaces
+  const imgSrc = title.toLowerCase().replace(/\s/g, "");
   console.log(imgSrc);
 
   return (
