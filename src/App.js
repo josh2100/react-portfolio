@@ -25,7 +25,7 @@ function App() {
   const [selectedPage, setSelectedPage] = useState(options[0]);
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid d-flex flex-column min-vh-100">
         <Header />
         <Navigation
           options={options}
