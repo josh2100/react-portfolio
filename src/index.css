@@ -1,7 +1,28 @@
+:root {
+  /* Canva.com Ice Infinity */
+  --background: #d9e4ec;
+  --sections: #b7cfdc;
+  --headings: #6aabd2;
+  --darkblue: #385e72;
+}
+
 * {
   margin: 0;
   font-family: 'Tahoma', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+}
+
+h1 {
+  background-color: var(--headings);
+}
+
+p {
+  height: 100%;
+}
+
+footer {
+  position: fixed;
 }
 
