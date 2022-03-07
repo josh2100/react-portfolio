@@ -1,19 +1,17 @@
-import Portfolio from '../Portfolio';
-import About from '../About';
-import Contact from '../Contact';
-import Resume from '../Resume';
+import Portfolio from "../Portfolio";
+import About from "../About";
+import Contact from "../Contact";
+import Resume from "../Resume";
 
 function Main({ selectedPage }) {
   const display = () => {
     switch (selectedPage.title) {
       case "about me":
-        return <About />; 
+        return <About />;
       case "portfolio":
-        return (
-            <Portfolio /> 
-        ); 
+        return <Portfolio />;
       case "contact":
-        return <Contact />; 
+        return <Contact />;
       case "resume":
         return <Resume />;
       default:
@@ -21,7 +19,7 @@ function Main({ selectedPage }) {
     }
   };
 
-  return <div  className="container-fluid">{display()}</div>;
+  return <div className="container-fluid">{display()}</div>;
 }
 
 export default Main;

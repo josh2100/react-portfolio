@@ -34,10 +34,9 @@ function Contact () {
 
     return (
         <section>
-        <h1 data-testid="h1tag">Contact me</h1>
-        <email>jschermann91@gmail.com</email>
-        <br />
-        <phone>218-232-7669</phone>
+        <h2 data-testid="h1tag" className="col-12 d-flex justify-content-center">Contact Me</h2>
+        <div>jschermann91@gmail.com</div>
+        <div>218-232-7669</div>
         <form id="contact-form" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>
