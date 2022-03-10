@@ -7,7 +7,7 @@ function Navigation(props) {
     <nav className="row">
         {options.map((selection) => (
           <span
-            className="col-3"
+            className="col-3 pageLinks"
             key={selection.title}
             onClick={() => setSelectedPage(selection)}
           >
