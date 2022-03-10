@@ -6,7 +6,7 @@ function Project({ project }) {
 
   return (
     //col-11 col-sm-4 col-md-5 col-lg col-xl
-    <article className="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 mb-4 ms-1 card">
+    <article className="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 mb-4 ms-1 card">
       <h2 className="card-header d-flex justify-content-center">{title}</h2>
       <img
         src={require(`../../assets/${imgSrc}.png`)}

@@ -27,7 +27,7 @@ p {
   border-width: 5px;
 } */
 
-/* a {
-  bottom: 0;
-} */
+a {
+  text-decoration: none;
+}
 
