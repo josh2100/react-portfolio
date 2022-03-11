@@ -23,7 +23,7 @@ function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          Stackoverflow
+          StackOverflow
         </a>
       </span>
     </footer>

@@ -1,7 +1,7 @@
 function Resume() {
   return (
     <>
-      <h2 className="col-12 d-flex justify-content-center">Resume</h2>
+      <h2 className="col-12 d-flex justify-content-center m-3">Resume</h2>
       <a
         href="https://docs.google.com/document/d/1QXq_G4lqDAAFZttCU_xLjmseYj-aOZrtnsoHBH3E86o/edit?usp=sharing"
         target="_blank"

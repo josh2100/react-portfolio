@@ -43,7 +43,7 @@ function Portfolio() {
 
   return (
     <section className="row justify-content-evenly">
-      <h2 className="col-12 d-flex justify-content-center">Featured Projects</h2>
+      <h2 className="col-12 d-flex justify-content-center m-3">Featured Projects</h2>
       {projects.map((project, id) => (
         <Project project={project} key={id} />
       ))}
