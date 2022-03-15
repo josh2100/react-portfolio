@@ -11,7 +11,7 @@ function Portfolio() {
     },
     {
       title: "Quick Budget",
-      body: "A budget tracker progressive web application. Enter transactions online, offline, or install the app to your computer or device.",
+      body: "Progressive web application that tracks a user's budget. Each expense is visually represented as a point on a graph. Enter transactions online, offline, or install the app to your computer or device.",
       deployed: "https://quick-budget2100.herokuapp.com/",
       repo: "https://github.com/josh2100/quick-budget",
     },
@@ -35,7 +35,7 @@ function Portfolio() {
     },
     {
       title: "Movie Me",
-      body: "Movie Me is a web application that uses Wikipedia API and OMDB API to get movie recommendations. Click a genre button, and you will see a movie displayed along with year released, movie rating, and a plot for the movie.",
+      body: "Movie Me is a web application that uses Wikipedia API and OMDB API to get movie recommendations. Click a genre button, and you will see a movie displayed along with year released, movie rating, and a plot for the movie. I built the API functionality as lead developer in my group of three",
       deployed: "https://josh2100.github.io/movie-me/",
       repo: "https://github.com/josh2100/movie-me",
     },

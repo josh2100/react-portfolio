@@ -14,19 +14,16 @@ function Project({ project }) {
         key={title}
         className="card-img-top"
       ></img>
-      <p className="">
-        {body}
-        <br />
-        <section className="d-flex justify-content-around">
-          {" "}
-          <a href={deployed} target="_blank" rel="noreferrer" className="">
-            <button>App</button>
-          </a>
-          <a href={repo} target="_blank" rel="noreferrer">
-            <button>GitHub</button>
-          </a>{" "}
-        </section>{" "}
-      </p>
+      <p className="m-2">{body}</p>
+      <section className="d-flex justify-content-around m-2 mt-auto">
+        {" "}
+        <a href={deployed} target="_blank" rel="noreferrer" className="">
+          <button>App</button>
+        </a>
+        <a href={repo} target="_blank" rel="noreferrer">
+          <button>GitHub</button>
+        </a>{" "}
+      </section>{" "}
     </article>
   );
 }
