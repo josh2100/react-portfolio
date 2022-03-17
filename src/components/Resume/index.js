@@ -1,14 +1,19 @@
 function Resume() {
   return (
-    <>
+    <section className="row justify-content-center m-3">
       <h2 className="col-12 d-flex justify-content-center m-3">Resume</h2>
+
       <a
         href="https://docs.google.com/document/d/1QXq_G4lqDAAFZttCU_xLjmseYj-aOZrtnsoHBH3E86o/edit?usp=sharing"
         target="_blank"
         rel="noreferrer"
-        className="col-12 d-flex justify-content-center"
+        className="col-2 d-flex justify-content-center m-3"
       >
-        Click here to view and download resume
+        <button> View resume</button>
+      </a>
+
+      <a href="../../assets/resume.pdf" download="resume.pdf" className="col-2 d-flex justify-content-center m-3">
+        <button> Download Resume PDF</button>
       </a>
 
       <h3 className="col-12 d-flex justify-content-center">Skills</h3>
@@ -26,8 +31,6 @@ function Resume() {
         <li>Responsive Design</li>
       </ul>
 
-
-
       <h4 className="col-12 d-flex justify-content-center">Back End</h4>
       <ul>
         <li>Node.js</li>
@@ -44,7 +47,6 @@ function Resume() {
         <li>Object Relational Mapping</li>
       </ul>
 
-
       <h4 className="col-12 d-flex justify-content-center">Testing</h4>
       <ul>
         <li>Jest</li>
@@ -56,8 +58,7 @@ function Resume() {
         <li>Agile</li>
         <li>GitHub</li>
       </ul>
-
-    </>
+    </section>
   );
 }
 
