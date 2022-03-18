@@ -1,3 +1,5 @@
+import resumePdf from "../../assets/resume.pdf"
+
 function Resume() {
   return (
     <section className="row justify-content-center m-3">
@@ -12,7 +14,7 @@ function Resume() {
         <button> View resume</button>
       </a>
 
-      <a href="../../assets/resume.pdf" download="resume.pdf" className="col-2 d-flex justify-content-center m-3">
+      <a href={resumePdf} download="resume.pdf" className="col-2 d-flex justify-content-center m-3">
         <button> Download Resume PDF</button>
       </a>
 
