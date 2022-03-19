@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.094c27d3.css",
-    "main.js": "/react-portfolio/static/js/main.d6d89283.js",
+    "main.js": "/react-portfolio/static/js/main.4fa6277a.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/mtida.jpg": "/react-portfolio/static/media/mtida.3e45c1aa4332e3727bfb.jpg",
     "static/media/screenshot.png": "/react-portfolio/static/media/screenshot.a1f7456801dc4c5faf19.png",
     "static/media/codesavior.png": "/react-portfolio/static/media/codesavior.f7b5c587d51a25924e83.png",
     "static/media/weatherwatch.png": "/react-portfolio/static/media/weatherwatch.c094962adea6357d0857.png",
     "static/media/movieme.png": "/react-portfolio/static/media/movieme.8ed26314ec59dfd5cc7c.png",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.5a84ffdadcd9d799240d.pdf",
     "static/media/quickbudget.png": "/react-portfolio/static/media/quickbudget.47f354c0ce9242c14569.png",
     "static/media/quizwiz.png": "/react-portfolio/static/media/quizwiz.0152b64982a24d43f7a5.png",
     "static/media/expressnotes.png": "/react-portfolio/static/media/expressnotes.0ade19cbaea752b3e3c5.png",
     "index.html": "/react-portfolio/index.html",
     "main.094c27d3.css.map": "/react-portfolio/static/css/main.094c27d3.css.map",
-    "main.d6d89283.js.map": "/react-portfolio/static/js/main.d6d89283.js.map",
+    "main.4fa6277a.js.map": "/react-portfolio/static/js/main.4fa6277a.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.094c27d3.css",
-    "static/js/main.d6d89283.js"
+    "static/js/main.4fa6277a.js"
   ]
 }
