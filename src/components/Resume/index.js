@@ -25,7 +25,7 @@ function Resume() {
       <h3 className="col-12 d-flex justify-content-center">Skills</h3>
 
       {/* Left side */}
-      <div className="col-6 card">
+      <div className="col-6">
         <h4 className="col-12 d-flex justify-content-center">Front End</h4>
         <ul className="col-12">
           <li>JavaScript</li>
@@ -41,7 +41,7 @@ function Resume() {
       </div>
 
       {/* Right side */}
-      <div className="col-6 card">
+      <div className="col-6">
         <h4 className="col-12 d-flex justify-content-center">Back End</h4>
         <ul className="col-12">
           <li>Node.js</li>
@@ -60,7 +60,7 @@ function Resume() {
       </div>
 
       {/* Left side */}
-      <div className="col-6 card">
+      <div className="col-6">
         <h4 className="col-12 d-flex justify-content-center">Testing</h4>
         <ul className="col-12">
           <li>Jest</li>
@@ -69,7 +69,7 @@ function Resume() {
       </div>
 
       {/* Right side */}
-      <div className="col-6 card">
+      <div className="col-6">
         <h4 className="col-12 d-flex justify-content-center">Collaboration</h4>
         <ul>
           <li>Agile</li>
