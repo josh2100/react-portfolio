@@ -17,9 +17,9 @@ function About() {
         Web Development from University of Minnesota. Skilled in JavaScript,
         React, Express.js, MongoDB, and MySQL. A friend introduced me to
         programming, and I took some lessons to find that I loved the sense of
-        accomplishment in solving coding problems. I switched careers for new
+        accomplishment in solving programming problems. I switched careers for new
         challenges and personal growth. I want to use my leadership experience,
-        communication skills, and motivated work ethic learned from construction
+        public speaking skills, and motivated work ethic learned from construction
         to succeed in software development.
       </p>
     </article>
