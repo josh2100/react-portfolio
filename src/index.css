@@ -35,12 +35,13 @@ p {
   text-decoration: none;
   color:black;
 }
-/* cards */
 
-.card {
+button {
   background-color: white;
+  border-radius: 7px !important;
 }
 
 button:hover {
   background-color: var(--sections);
+  border-radius: 7px !important;
 }

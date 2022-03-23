@@ -7,12 +7,12 @@ function Project({ project }) {
   return (
     //col-11 col-sm-4 col-md-5 col-lg col-xl
     <article className="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 mb-4 ms-1 card no-gutters">
-      <h2 className="card-header d-flex justify-content-center">{title}</h2>
+      <h2 className="d-flex justify-content-center">{title}</h2>
       <img
         src={require(`../../assets/${imgSrc}.png`)}
         alt={title}
         key={title}
-        className="card-img-top"
+        className=""
       ></img>
       <p className="m-2">{body}</p>
       <section className="d-flex justify-content-around m-2 mt-auto">

@@ -4,10 +4,10 @@ import Project from "../Project";
 function Portfolio() {
   const [projects] = useState([
     {
-      title: "Weather Watch",
-      body: "This web application is used for displaying weekly weather information for different cities around the world. Open Weather API is used to fetch data. Client side storage is used for saving city search history.",
-      deployed: "https://josh2100.github.io/weekly-weather-watch/",
-      repo: "https://github.com/josh2100/weekly-weather-watch",
+      title: "Joy News",
+      body: "MERN stack application for viewing and sharing positive news articles. Users can view articles, save articles, add friends, comments, and view friend’s articles.",
+      deployed: "https://joynews.herokuapp.com/",
+      repo: "https://bit.ly/3NgZZVs",
     },
     {
       title: "Quick Budget",
@@ -39,11 +39,19 @@ function Portfolio() {
       deployed: "https://josh2100.github.io/movie-me/",
       repo: "https://github.com/josh2100/movie-me",
     },
+    {
+      title: "Weather Watch",
+      body: "This web application is used for displaying weekly weather information for different cities around the world. Open Weather API is used to fetch data. Client side storage is used for saving city search history.",
+      deployed: "https://josh2100.github.io/weekly-weather-watch/",
+      repo: "https://github.com/josh2100/weekly-weather-watch",
+    },
   ]);
 
   return (
     <section className="row justify-content-evenly">
-      <h2 className="col-12 d-flex justify-content-center m-3">Featured Projects</h2>
+      <h2 className="col-12 d-flex justify-content-center m-3">
+        Featured Projects
+      </h2>
       {projects.map((project, id) => (
         <Project project={project} key={id} />
       ))}
