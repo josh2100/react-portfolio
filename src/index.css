@@ -7,7 +7,6 @@
 }
 
 * {
-  /* margin: 0; */
   font-family: "Tahoma", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -25,6 +24,10 @@ p {
   height: 100%;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .pageLinks:hover {
   background-color: var(--sections);
   text-decoration: none;
@@ -32,7 +35,6 @@ p {
 }
 
 .pageLinks {
-  text-decoration: none;
   color:black;
 }
 
