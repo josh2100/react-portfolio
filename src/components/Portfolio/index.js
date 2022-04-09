@@ -10,6 +10,12 @@ function Portfolio() {
       repo: "https://bit.ly/3NgZZVs",
     },
     {
+      title: "Weather Watch",
+      body: "React application used for displaying weekly weather information for any city in the world. Open Weather API is used to fetch data. Client side storage is used for saving city search history.",
+      deployed: "https://josh2100.github.io/weather-watch/",
+      repo: "https://github.com/josh2100/weather-watch",
+    },
+    {
       title: "Quick Budget",
       body: "Progressive web application that tracks a user's budget. Each expense is visually represented as a point on a graph. Enter transactions online, offline, or install the app to your computer or device.",
       deployed: "https://quick-budget2100.herokuapp.com/",
@@ -35,16 +41,10 @@ function Portfolio() {
     },
     {
       title: "Movie Me",
-      body: "Movie Me is a web application that uses Wikipedia API and OMDB API to get movie recommendations. Click a genre button, and you will see a movie displayed along with year released, movie rating, and a plot for the movie. I built the API functionality as lead developer in my group of three",
+      body: "Movie Me is a web application that uses Wikipedia API and OMDB API to get movie recommendations. Click a genre button, and you will see a movie displayed along with year released, movie rating, and a plot for the movie. I built the API functionality as lead developer in my group of three.",
       deployed: "https://josh2100.github.io/movie-me/",
       repo: "https://github.com/josh2100/movie-me",
-    },
-    {
-      title: "Weather Watch",
-      body: "This web application is used for displaying weekly weather information for different cities around the world. Open Weather API is used to fetch data. Client side storage is used for saving city search history.",
-      deployed: "https://josh2100.github.io/weekly-weather-watch/",
-      repo: "https://github.com/josh2100/weekly-weather-watch",
-    },
+    }
   ]);
 
   return (
