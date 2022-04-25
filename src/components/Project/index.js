@@ -2,7 +2,6 @@ function Project({ project }) {
   const { title, body, deployed, repo } = project;
 
   const imgSrc = title.toLowerCase().replace(/\s/g, "");
-  // console.log(imgSrc);
 
   return (
     //col-11 col-sm-4 col-md-5 col-lg col-xl
